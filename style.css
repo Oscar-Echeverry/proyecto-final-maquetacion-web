@@ -24,3 +24,20 @@ header{
     padding: 15px 3%;
     background-color: transparent;
 }
+.logo {
+   font-size: 30px;
+   font-weight: 800; /*este es el grueso de la letra del logo*/
+}
+.navlist {
+    display: flex;/*esto sirve para que los elementos de las listas ul se pongan en linea*/
+}
+.navlist a{
+    margin-left: 60px; /*esto es para separa las palabras*/
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent; /*esto es par el subrayado transparente*/
+    transition: all .5s ease; /*esto es para animar todas las caracteristicas del .navlist a*/
+}
+.navlist a:hover {
+    border-bottom: 2px solid white; /*esto es par el subrayado blanco solo aparece si se pone ensima el mouse*/
+}
