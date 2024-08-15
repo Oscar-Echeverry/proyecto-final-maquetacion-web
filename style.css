@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: black; /*Todo: Borrar cuando tenga el fondo final*/
+    background-color: rgb(92, 40, 144); /*Todo: Borrar cuando tenga el fondo final*/
 }
 header{
     position: fixed; /*esto hace que el heder se quede fijo en la parte superior*/
@@ -40,4 +40,10 @@ header{
 }
 .navlist a:hover {
     border-bottom: 2px solid white; /*esto es par el subrayado blanco solo aparece si se pone ensima el mouse*/
+}
+#menu-icon{
+    display: none; /*solo se pone en none para que se vea solo cuando la pagina esta colasada*/
+}
+#menu-toggle{
+    display: none; /* para que no seve el checkbox/*
 }
