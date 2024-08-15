@@ -1,0 +1,26 @@
+/*Normalizacion*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; /*esto mantiene el ancho y el alto de el padding y borde */
+    font-family: 'Roboto Mono', monospace;
+    list-style: none; /*quita los puntos de decoracion de las listas*/
+    text-decoration: none; /* esto quita el subrayado de los enlaces*/
+    color: white;
+}
+
+body{
+    background-color: black; /*Todo: Borrar cuando tenga el fondo final*/
+}
+header{
+    position: fixed; /*esto hace que el heder se quede fijo en la parte superior*/
+    right: 0;
+    top: 0;
+    z-index: 100; /* esto hace que el header se muestre por encima*/
+    width: 100%;
+    display: flex; /* esto hara que los elementos se pongan en linea*/
+    align-items: center; /*centra verticalmente */
+    justify-content: space-between; /*que los elementos se separen*/
+    padding: 15px 3%;
+    background-color: transparent;
+}
