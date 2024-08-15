@@ -1,6 +1,6 @@
 # Proyecto Final: Landing Page de Maquetación Web
 
-Este repositorio contiene una landing page realizada en HTML y CSS como parte del curso de Maquetación Web impartido por Sergie Code para Digital House.
+Este repositorio contiene una landing page realizada en HTML y CSS como parte del curso de Maquetación Web impartido por Digital House.
 
 ## Uso
 
