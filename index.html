@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
     <link rel="stylesheet" type="text/css" href="style.css">
     <!--https://boxicons.com/> -->
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -23,8 +23,10 @@
      <!--esta es la cabecera de la pagina lo cual tendra el logo y la barra de navegacion/> -->
     <header>
         <a href="#" class="logo"> Oscar Echeverry </a>
-        <div class="bx bx-menu" id="menu-icon"></div>
-        
+        <input type="checkbox" name="checkbox" id="menu-toggle">
+        <label for="menu-toggle">
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </label>
         <ul class="navlist">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre Mi </a></li>
@@ -32,5 +34,25 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </header>
+         <!--Hero section -->
+        <section class="hero">
+            <div class="hero-text">
+                <h5>Estudiante de Ingenieria en telecomunicaciones</h5>
+                <h4>Estudiante de Digital House</h4>
+                <h1>Oscar Echeverri</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium vel consequuntur quidem quos distinctio perspiciatis incidunt est, quaerat architecto eaque cumque, exercitationem, sit eveniet atque quisquam quas iure doloremque voluptates.</p><br>
+                <a href="#">Cv</a>
+                <a href="#" class="videos"><i class="ri-play-fill"></i>Mira mis videos</a>
+            </div>
+            <div class="hero-img">
+                <img src="assets/imgs/foto.png" alt="Oscar">
+            </div>
+        </section>
+        <div class="icons">
+            <a href="#" id="gato"><i class="ri-github-fill"></i></a>
+            <a href="#"><i class="ri-facebook-fill"></i></a>
+            <a href="#"><i class="ri-instagram-line"></i></a>
+            <a href="#"><i class="ri-linkedin-fill"></i></i></a>
+        </div>
 </body>
 </html>
